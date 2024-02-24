@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" width="800" align="center">
+        <thead>
+            <tr>
+                <th>Product Id</th>
+                <th>Product Name</th>
+                <th>Product Price</th>
+                <th>Product Description</th>
+            </tr>
+        </thead>
+        <tbody id="productTbody">
+        </tbody>
+    </table>
+
+    <hr/>
+    <table border="1" width="800" align="center">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total Price</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="invoiceTbody">
+            <tr>
+                <td>
+                    <select id="productName">
+                        <option value="" disabled selected>Select Product</option>
+                    </select>
+                </td>
+                <td><input type="number"/></td>
+                <td><input type="number"/></td>
+                <td><input type="number"/></td>
+                <td><input type="button" value="+" id="addProductBtn"/></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
